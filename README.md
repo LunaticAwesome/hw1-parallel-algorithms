@@ -28,36 +28,36 @@ PARLAY_NUM_THREADS=4 task.exe
 Мне показалось, что не совсем честно запускать на одном массиве, поэтому добавил запусков на 5. 
 У меня mvss v. 17.0.0. Результаты выглядят следующим образом (добавил число worker-ов в вывод, чтобы точно быть уверенным):
 
-``
+```
 Task1.exe
 All tests passed!
 === QuickSort Benchmark (5 arrays, 4 workers) ===
-Array size: 100000000 elements
+    Array size: 100000000 elements
 
 --- Array 1/5 ---
-sequential: 11917.78 ms
-parallel:   3609.09 ms
+  sequential: 11904.44 ms
+  parallel:   3594.80 ms
 
 --- Array 2/5 ---
-sequential: 11958.86 ms
-parallel:   3809.18 ms
+  sequential: 11913.44 ms
+  parallel:   3803.65 ms
 
 --- Array 3/5 ---
-sequential: 11756.62 ms
-parallel:   3735.95 ms
+  sequential: 11759.88 ms
+  parallel:   3659.74 ms
 
 --- Array 4/5 ---
-sequential: 11661.91 ms
-parallel:   3799.38 ms
+  sequential: 11688.04 ms
+  parallel:   3765.57 ms
 
 --- Array 5/5 ---
-sequential: 11714.14 ms
-parallel:   3659.33 ms
+  sequential: 11708.17 ms
+  parallel:   3678.69 ms
 
 === Summary ===
-Sequential avg: 11801.86 ms
-Parallel   avg: 3722.59 ms
-Speedup:        3.17x
+Sequential avg: 11794.79 ms
+Parallel   avg: 3700.49 ms
+Speedup:        3.19x
 
 Process finished with exit code 0
-``
+```
