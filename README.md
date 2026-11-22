@@ -28,7 +28,7 @@ PARLAY_NUM_THREADS=4 task.exe
 Мне показалось, что не совсем честно запускать на одном массиве, поэтому добавил запусков на 5. 
 У меня mvss v. 17.0.0. Результаты выглядят следующим образом (добавил число worker-ов в вывод, чтобы точно быть уверенным):
 
-``
+```
 Task1.exe
 All tests passed!
 === QuickSort Benchmark (5 arrays, 4 workers) ===
@@ -60,4 +60,4 @@ Parallel   avg: 3722.59 ms
 Speedup:        3.17x
 
 Process finished with exit code 0
-``
+```
